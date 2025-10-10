@@ -1,49 +1,39 @@
 ---
 layout: page
-icon: fas fa-link
-order: 2
+icon: fas fa-book
+order: 1
 ---
 
-## Implementation Resources
+## Core Resources
 
-### Read the Manifesto
-**PDF - 15 minutes**
+### The Manifesto
+The foundational document explaining the vision for Spaceship Earth v2.0.
 
-Download and read the complete manifesto explaining the vision and technical feasibility of Spaceship Earth v2.0.
-
-[Download Manifesto](#){: .btn .btn-primary}
+[📄 Read the Manifesto (PDF)](#){: .btn .btn-outline-primary}
+*Estimated reading time: 15 minutes*
 
 ---
 
 ### Implementation Guide
-**Notion - Free Access**
+A comprehensive guide to understanding and implementing the principles.
 
-Step-by-step guide to understanding and participating in the implementation.
-
-[Access Guide](#){: .btn .btn-primary}
-
----
-
-### Join the Crew
-**Discord Community**
-
-Connect with other crew members, share ideas, and collaborate on the project.
-
-[Join Discord](#){: .btn .btn-primary}
+[📚 Implementation Guide (Notion)](#){: .btn .btn-outline-primary}
+*Free access for all crew members*
 
 ---
 
-## Support Options
+### Community
 
-Stage 1 funds campus tour + platform development.  
-Contribution = crew support, not purchase.  
-**Everyone gets everything. No tiers.**
+#### Join the Crew
+Connect with fellow crew members, share ideas, and collaborate on the mission.
 
-### Direct Support
-- **Venmo:** @YourHandle
-- **Cash App:** $YourHandle
+[💬 Discord Community](#){: .btn .btn-outline-primary}
+*Free and open to all*
 
-### Supporter Edition
-- **Ebook:** $27 (delivers via email)
+---
 
-[Get Supporter Edition](#){: .btn .btn-success}
+## Additional Resources
+
+- **GitHub Repository:** [SSE2-Public](https://github.com/NoahOBodhi/SSE2-Public)
+- **Email Updates:** Subscribe for movement updates
+- **Contact:** [noah.o.bodhi@proton.me](mailto:noah.o.bodhi@proton.me)
