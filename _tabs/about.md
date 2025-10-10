@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-info-circle
-order: 1
+order: 4
 ---
 
 ## About Spaceship Earth v2.0
@@ -12,8 +12,10 @@ The second paragraph could dive deeper into your background, your experience wit
 
 The third paragraph brings it home - your commitment to the crew, the movement, and the future we're building together.
 
+---
+
 ## Contact
 
 **Email:** [noah.o.bodhi@proton.me](mailto:noah.o.bodhi@proton.me)
 
-**GitHub:** [NoahOBodhi](https://github.com/NoahOBodhi)
+**GitHub:** [@NoahOBodhi](https://github.com/NoahOBodhi)
