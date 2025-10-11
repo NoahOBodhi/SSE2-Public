@@ -2,55 +2,204 @@
 layout: home
 ---
 
-## You Are Crew
+<style>
+/* Enhanced hover effects for links */
+a:not(.primary-button) {
+  transition: all 0.2s ease;
+}
 
-### The Recognition
+a:not(.primary-button):hover {
+  transform: translateX(3px);
+  opacity: 0.8;
+}
 
-You've felt it - systems failing while technology advances.
-That's not you failing to understand. That's you correctly
-perceiving artificial scarcity architecture.
+/* Button enhancements */
+.primary-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #667eea;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(102, 126, 234, 0.3);
+}
 
-Buckminster Fuller predicted this in 1969.
-The solution is now technically feasible.
+.primary-button:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  background: #5568d3;
+}
 
----
+/* Card shadow enhancements */
+.card-section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
 
-### The Implementation
+.card-section:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
 
-- **[Read the Manifesto](#)** (PDF - 15 mins)
-- **[Read the Implementation Guide](#)** (Notion - Free)
-- **[Join the Crew](#)** (Discord - Free)
+/* Hero section letter spacing */
+.hero-title {
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
----
+/* List item enhancements */
+.enhanced-list li {
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  padding-left: 10px !important;
+}
 
-### The Support
+.enhanced-list li:hover {
+  background: rgba(102, 126, 234, 0.05);
+  padding-left: 15px !important;
+}
 
-Stage 1 funds campus tour + platform development.
-Contribution = crew support, not purchase.
-**Everyone gets everything. No tiers.**
+/* Icon styling */
+.icon {
+  font-size: 1.2em;
+  margin-right: 8px;
+  color: #667eea;
+}
 
-**Options:**
-- [Venmo](#) - @YourHandle
-- [Cash App](#) - $YourHandle
-- [Buy Supporter Edition](#) - Ebook $27 (delivers via email)
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2em !important;
+  }
+  
+  div[style*="max-width: 900px"] {
+    padding: 10px !important;
+  }
+  
+  div[style*="padding: 40px"] {
+    padding: 20px !important;
+  }
+}
 
----
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 
-### About
+/* Accent color variations */
+.accent-purple { border-left-color: #764ba2; }
+.accent-blue { border-left-color: #667eea; }
+.accent-gradient { 
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  color: white;
+}
+</style>
 
-This is where your story begins. Three paragraphs that explain who you are, why you're building this, and what drives your vision for Spaceship Earth v2.0.
+<div style="max-width: 900px; margin: 0 auto; padding: 20px;">
 
-The second paragraph could dive deeper into your background, your experience with the systems you're working to transform, and what makes you uniquely positioned to lead this work.
+<div class="accent-gradient card-section" style="text-align: center; margin-bottom: 60px; padding: 40px 20px; color: white; border-radius: 8px;">
+  <h1 class="hero-title" style="font-size: 3em; font-weight: 900; margin-bottom: 10px; color: white;">SPACESHIP EARTH v2.0</h1>
+  <p style="font-size: 1.8em; font-weight: 600;">You Are Crew</p>
+</div>
 
-The third paragraph brings it home - your commitment to the crew, the movement, and the future we're building together.
+<div class="card-section accent-blue" style="background: #f8f9fa; padding: 40px; border-left: 5px solid #667eea; margin-bottom: 40px; border-radius: 8px;">
+  <h2 style="font-size: 1.8em; margin-bottom: 20px; color: #333;"><span class="icon">🎯</span>The Recognition</h2>
+  <p style="font-size: 1.2em; line-height: 1.8; color: #555;">
+    You've felt it - systems failing while technology advances.
+    That's not you failing to understand. That's you correctly
+    perceiving artificial scarcity architecture.
+  </p>
+  <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-top: 15px;">
+    Buckminster Fuller predicted this in 1969.
+    The solution is now technically feasible.
+  </p>
+</div>
 
-**Contact:** [noah.o.bodhi@proton.me](mailto:noah.o.bodhi@proton.me)
+<hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
 
----
+<div class="card-section" style="background: #ffffff; padding: 40px; border: 2px solid #667eea; margin-bottom: 40px; border-radius: 8px;">
+  <h2 style="font-size: 1.8em; margin-bottom: 25px; color: #333;"><span class="icon">🚀</span>The Implementation</h2>
+  <ul class="enhanced-list" style="list-style: none; padding: 0;">
+    <li style="padding: 15px 0; font-size: 1.2em; border-bottom: 1px solid #e0e0e0;">
+      <strong>→</strong> <a href="#manifesto" style="color: #667eea; font-weight: 600;">Read the Manifesto</a> <span style="color: #888;">(PDF - 15 mins)</span>
+    </li>
+    <li style="padding: 15px 0; font-size: 1.2em; border-bottom: 1px solid #e0e0e0;">
+      <strong>→</strong> <a href="#guide" style="color: #667eea; font-weight: 600;">Read the Implementation Guide</a> <span style="color: #888;">(Notion - Free)</span>
+    </li>
+    <li style="padding: 15px 0; font-size: 1.2em;">
+      <strong>→</strong> <a href="#discord" style="color: #667eea; font-weight: 600;">Join the Crew</a> <span style="color: #888;">(Discord - Free)</span>
+    </li>
+  </ul>
+</div>
 
-### Resources
+<hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
 
-- [Manifesto (PDF)](#)
-- [Implementation Guide (Notion)](#)
-- [Discord Community](#)
-- [Contact](mailto:noah.o.bodhi@proton.me)
+<div class="card-section accent-purple" style="background: #f8f9fa; padding: 40px; border-left: 5px solid #764ba2; margin-bottom: 40px; border-radius: 8px;">
+  <h2 style="font-size: 1.8em; margin-bottom: 20px; color: #333;"><span class="icon">💫</span>The Support</h2>
+  <p style="font-size: 1.2em; line-height: 1.8; color: #555; margin-bottom: 25px;">
+    Stage 1 funds campus tour + platform development.<br>
+    Contribution = crew support, not purchase.<br>
+    <strong>Everyone gets everything. No tiers.</strong>
+  </p>
+  
+  <h3 style="font-size: 1.4em; margin: 30px 0 20px 0; color: #333;">Options:</h3>
+  <ul class="enhanced-list" style="list-style: none; padding: 0;">
+    <li style="padding: 12px 0; font-size: 1.1em;">
+      <strong>•</strong> <a href="#venmo" style="color: #667eea; font-weight: 600;">Venmo</a> - @YourHandle
+    </li>
+    <li style="padding: 12px 0; font-size: 1.1em;">
+      <strong>•</strong> <a href="#cashapp" style="color: #667eea; font-weight: 600;">Cash App</a> - $YourHandle
+    </li>
+    <li style="padding: 12px 0; font-size: 1.1em;">
+      <strong>•</strong> <a href="#ebook" class="primary-button">Buy Supporter Edition</a> - Ebook $27 (delivers via email)
+    </li>
+  </ul>
+</div>
+
+<hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+<div class="card-section" style="background: #ffffff; padding: 40px; border: 2px solid #e0e0e0; margin-bottom: 40px; border-radius: 8px;">
+  <h2 style="font-size: 1.8em; margin-bottom: 20px; color: #333;"><span class="icon">👤</span>About</h2>
+  <p style="font-size: 1.1em; line-height: 1.8; color: #555; margin-bottom: 15px;">
+    This is where your story begins. Three paragraphs that explain who you are, why you're building this, and what drives your vision for Spaceship Earth v2.0.
+  </p>
+  <p style="font-size: 1.1em; line-height: 1.8; color: #555; margin-bottom: 15px;">
+    The second paragraph could dive deeper into your background, your experience with the systems you're working to transform, and what makes you uniquely positioned to lead this work.
+  </p>
+  <p style="font-size: 1.1em; line-height: 1.8; color: #555; margin-bottom: 25px;">
+    The third paragraph brings it home - your commitment to the crew, the movement, and the future we're building together.
+  </p>
+  <p style="font-size: 1.1em;">
+    <strong>Contact:</strong> <a href="mailto:noah.o.bodhi@proton.me" style="color: #667eea; font-weight: 600;">noah.o.bodhi@proton.me</a>
+  </p>
+</div>
+
+<hr style="margin: 50px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+<div class="card-section" style="background: #f8f9fa; padding: 40px; border-radius: 8px;">
+  <h2 style="font-size: 1.8em; margin-bottom: 25px; color: #333;"><span class="icon">📚</span>Resources</h2>
+  <ul class="enhanced-list" style="list-style: none; padding: 0;">
+    <li style="padding: 12px 0; font-size: 1.1em; border-bottom: 1px solid #e0e0e0;">
+      <strong>→</strong> <a href="#manifesto" style="color: #667eea; font-weight: 600;">Manifesto (PDF)</a>
+    </li>
+    <li style="padding: 12px 0; font-size: 1.1em; border-bottom: 1px solid #e0e0e0;">
+      <strong>→</strong> <a href="#guide" style="color: #667eea; font-weight: 600;">Implementation Guide (Notion)</a>
+    </li>
+    <li style="padding: 12px 0; font-size: 1.1em; border-bottom: 1px solid #e0e0e0;">
+      <strong>→</strong> <a href="#discord" style="color: #667eea; font-weight: 600;">Discord Community</a>
+    </li>
+    <li style="padding: 12px 0; font-size: 1.1em;">
+      <strong>→</strong> <a href="mailto:noah.o.bodhi@proton.me" style="color: #667eea; font-weight: 600;">Contact</a>
+    </li>
+  </ul>
+</div>
+
+<div style="text-align: center; margin-top: 60px; padding: 30px; color: #888; border-top: 2px solid #e0e0e0;">
+  <p style="font-size: 1em;">&copy; 2025 Spaceship Earth v2.0 | Everyone gets everything</p>
+</div>
+
+</div>
